@@ -1,0 +1,32 @@
+{
+  "name": "graphqlapiserver",
+  "version": "1.0.0",
+  "description": "graphql 학습을 위한 토이 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuguya/graphqlapiserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuguya/graphqlapiserver/issues"
+  },
+  "homepage": "https://github.com/nuguya/graphqlapiserver#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
