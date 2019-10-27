@@ -5,6 +5,7 @@ type Movie {
   summary: String!
   medium_cover_image: String!
   description_full: String!
+  genres: [String]!
 }
 
 type Query {
